@@ -1,0 +1,42 @@
+[
+    {
+        "sName":"HTML",
+        "sClass":"fa-brands fa-html5 fa-fw",
+        "sPercent":"95"
+    },
+    {
+        "sName":"CSS",
+        "sClass":"fa-brands fa-css3-alt",
+        "sPercent":"90"
+    },
+    {
+        "sName":"JavaScript",
+        "sClass":"fa-brands fa-js",
+        "sPercent":"85"
+    },
+    {
+        "sName":"React",
+        "sClass":"fa-brands fa-react",
+        "sPercent":"65"
+    },
+    {
+        "sName":"Bootstrap",
+        "sClass":"fa-brands fa-bootstrap",
+        "sPercent":"90"
+    },
+    {
+        "sName":"SCSS",
+        "sClass":"fa-brands fa-sass",
+        "sPercent":"85"
+    },
+    {
+        "sName":"Git",
+        "sClass":"fa-brands fa-git-alt",
+        "sPercent":"90"
+    },
+    {
+        "sName":"GitHub",
+        "sClass":"fa-brands fa-github",
+        "sPercent":"85"
+    }
+]

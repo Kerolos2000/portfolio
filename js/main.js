@@ -1,6 +1,6 @@
 // skills api
 let skillsX = document.querySelector("#skillsX");
-fetch("../skillsJSON/skills.json")
+fetch("../skills.json")
   .then((response) => {
     return response.json();
   })

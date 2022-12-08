@@ -177,7 +177,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
 }
 #main .container .row .main-text .myCV {
   background: transparent;
-  width: 15rem;
+  width: 16rem;
   position: relative;
   border: none;
   padding: 0;
@@ -257,7 +257,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #946fc0;
-  font-family: "Fredoka One", "Marhey";
+  font-family: "Fredoka One", cursive;
   font-size: 6vh;
   font-weight: 600;
   margin-bottom: 20px;
@@ -278,7 +278,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
   background: transparent;
   border: none;
 }
-@media (max-width: 551px) and (min-width: 424px) {
+@media (max-width: 551px) and (min-width: 412px) {
   #skills .container .row .card {
     width: 11rem;
     margin: 15px;
@@ -343,7 +343,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #946fc0;
-  font-family: "Fredoka One", "Marhey";
+  font-family: "Fredoka One", cursive;
   font-size: 6vh;
   font-weight: 600;
   margin-bottom: 20px;
@@ -393,7 +393,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
 }
 #Projects .row .card .cardX .front .card-body .visit {
   background: #fff0fe;
-  min-width: 120px;
+  min-width: 140px;
 }
 
 #connect {
@@ -403,7 +403,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #946fc0;
-  font-family: "Fredoka One", "Marhey";
+  font-family: "Fredoka One", cursive;
   font-size: 6vh;
   font-weight: 600;
   margin-bottom: 20px;
@@ -626,7 +626,7 @@ nav #navbarSupportedContent ul li .dropdown-menu.show a:hover, nav #navbarSuppor
 #mouse-cursor-gradient-tracking {
   position: relative;
   background: transparent;
-  padding: 0.5rem 1rem;
+  padding: 5px 0;
   font-size: 1.2rem;
   cursor: pointer;
   outline: none;

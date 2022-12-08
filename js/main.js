@@ -1,34 +1,86 @@
+let input1 = document.querySelector(".input1")
+let input2 = document.querySelector(".input2")
+let input3 = document.querySelector(".input3")
+let input4 = document.querySelector(".textarea")
+let invalid = document.querySelectorAll(".invalid-feedback")
+function clear() {
+  input1.value = ""
+  input2.value = ""
+  input3.value = ""
+  input4.value = ""
+  // for (let i = 0; i < invalid.length; i++) {
+  //   invalid[i].style.display = "none"
+  // }
+}
+let skills = [
+  {
+      "sName":"HTML",
+      "sClass":"fa-brands fa-html5 fa-fw",
+      "sPercent":"95"
+  },
+  {
+      "sName":"CSS",
+      "sClass":"fa-brands fa-css3-alt",
+      "sPercent":"90"
+  },
+  {
+      "sName":"JavaScript",
+      "sClass":"fa-brands fa-js",
+      "sPercent":"85"
+  },
+  {
+      "sName":"React",
+      "sClass":"fa-brands fa-react",
+      "sPercent":"65"
+  },
+  {
+      "sName":"Bootstrap",
+      "sClass":"fa-brands fa-bootstrap",
+      "sPercent":"90"
+  },
+  {
+      "sName":"SCSS",
+      "sClass":"fa-brands fa-sass",
+      "sPercent":"85"
+  },
+  {
+      "sName":"Git",
+      "sClass":"fa-brands fa-git-alt",
+      "sPercent":"90"
+  },
+  {
+      "sName":"GitHub",
+      "sClass":"fa-brands fa-github",
+      "sPercent":"85"
+  }
+]
 // skills api
-let skillsX = document.querySelector("#skillsX");
-fetch("../skills.json")
-  .then((response) => {
-    return response.json();
-  })
-  .then((response) => {
-    for (let i = 0; i < response.length; i++) {
+let skillsX = document.querySelector(".skillsX");
+
+    for (let i = 0; i < skills.length; i++) {
       skillsX.innerHTML += `
         <div class="card col-xl-4 col-md-6 col-sm-6 col-6" data-aos="zoom-in-down" data-aos-duration="1000">
             <div class="cardX1">
             <div class="front">
                 <div class="card-img">
-                <i class="${response[i].sClass} fa-fw"></i>
+                <i class="${skills[i].sClass} fa-fw"></i>
                 </div>
                 <div class="card-bodr">
-                <h3>${response[i].sName}</h3>
+                <h3>${skills[i].sName}</h3>
                 </div>
             </div>
             <div class="back">
-                <label for="skillpro">${response[i].sPercent}%</label>
+                <label for="skillpro">${skills[i].sPercent}%</label>
                 <div id="skillpro" class="progress aos-init aos-animate" data-aos="fade-right">
                 <div class="progress-bar"
-                    role="progressbar" style="width: ${response[i].sPercent}%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    role="progressbar" style="width: ${skills[i].sPercent}%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
             </div>
         </div>
         `;
     }
-  });
+
 
 // loaader
 let loader = document.getElementById("loader");
@@ -125,24 +177,23 @@ window.scrollTo(0, sessionStorage.getItem("scrollY"));
         if (!form.checkValidity()) {
           event.preventDefault();
           event.stopPropagation();
-        }else{
+        } else {
           Swal.fire(
-            'Done!',
-            'Your message has been sent successfully',
-            'success'
-            )
-          }
-          form.classList.add("was-validated");
-          event.preventDefault();
+            "Done!",
+            "Your message has been sent successfully",
+            "success"
+          );
+          clear()
+        }
+        form.classList.add("was-validated");
+        event.preventDefault();
       },
       false
     );
   });
 })();
 
-
-
-// preventDefault 
+// preventDefault
 document.onkeydown = function (e) {
   if (event.keyCode == 123) {
     return false;

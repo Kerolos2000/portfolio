@@ -88,7 +88,7 @@ let NAV = document.getElementById("NAV");
 let toUp = document.querySelector("#toUp");
 document.body.style.maxHeight = "100vh";
 document.body.style.overflow = "hidden";
-setTimeout(loaderNone, 2000);
+setTimeout(loaderNone, 4000);
 function loaderNone() {
   document.body.style.maxHeight = "auto";
   document.body.style.overflow = "auto";

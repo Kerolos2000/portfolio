@@ -110,7 +110,7 @@ fetch("https://api.github.com/users/kerolos2000/repos")
 		<div class="cardX">
 		  <div class="front">
 			<div class="card-body">
-			  <h3>${response[i].name}</h3>
+			  <h4>${response[i].name.replace(/-/g,' ')}</h4>
 			  <h6>NO. of Stars ${response[i].stargazers_count}<i class="fa-regular fa-star"></i></h6>
 			  <div class="mb-3">
 				<h5>Show code</h5>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63a6c69a.css",
-    "main.js": "/portfolio/static/js/main.ecd62fcd.js",
+    "main.js": "/portfolio/static/js/main.d06cedd0.js",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/Kerolos Resume.pdf": "/portfolio/static/media/Kerolos Resume.d673c456e1cfb28aaf4e.pdf",
     "static/media/redux.png": "/portfolio/static/media/redux.17a299eb0ff5a2da507f.png",
@@ -25,15 +25,16 @@
     "static/media/layer_6.png": "/portfolio/static/media/layer_6.5bb16f4af589301d2526.png",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/layer_3.png": "/portfolio/static/media/layer_3.90d005218f3535414dfa.png",
+    "static/media/404 Error-rafiki (1).svg": "/portfolio/static/media/404 Error-rafiki (1).46e84d0bad3eb05ad33006205ebf5809.svg",
     "static/media/json.png": "/portfolio/static/media/json.2a2c68fc4525dd4aadb3.png",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/portfolio/index.html",
     "main.63a6c69a.css.map": "/portfolio/static/css/main.63a6c69a.css.map",
-    "main.ecd62fcd.js.map": "/portfolio/static/js/main.ecd62fcd.js.map"
+    "main.d06cedd0.js.map": "/portfolio/static/js/main.d06cedd0.js.map"
   },
   "entrypoints": [
     "static/css/main.63a6c69a.css",
-    "static/js/main.ecd62fcd.js"
+    "static/js/main.d06cedd0.js"
   ]
 }

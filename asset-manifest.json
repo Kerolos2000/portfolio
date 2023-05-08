@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.63a6c69a.css",
-    "main.js": "/portfolio/static/js/main.d06cedd0.js",
+    "main.css": "/portfolio/static/css/main.28949300.css",
+    "main.js": "/portfolio/static/js/main.13731dcf.js",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/Kerolos Resume.pdf": "/portfolio/static/media/Kerolos Resume.d673c456e1cfb28aaf4e.pdf",
     "static/media/redux.png": "/portfolio/static/media/redux.17a299eb0ff5a2da507f.png",
@@ -30,11 +30,11 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/portfolio/index.html",
-    "main.63a6c69a.css.map": "/portfolio/static/css/main.63a6c69a.css.map",
-    "main.d06cedd0.js.map": "/portfolio/static/js/main.d06cedd0.js.map"
+    "main.28949300.css.map": "/portfolio/static/css/main.28949300.css.map",
+    "main.13731dcf.js.map": "/portfolio/static/js/main.13731dcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.63a6c69a.css",
-    "static/js/main.d06cedd0.js"
+    "static/css/main.28949300.css",
+    "static/js/main.13731dcf.js"
   ]
 }

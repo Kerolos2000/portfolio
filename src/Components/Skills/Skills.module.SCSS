@@ -1,0 +1,16 @@
+.allCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .img {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  .p {
+    color: var(--secBg);
+  }
+}
+

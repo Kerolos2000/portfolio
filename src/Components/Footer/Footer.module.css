@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--mainColor);
+  color: var(--secBg);
+}
+.footer .container .row {
+  justify-content: space-around;
+}
+.footer .container .row .left p span {
+  color: var(--secColor);
+}
+.footer .Gmail {
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid var(--secBg);
+}
+.footer a {
+  color: var(--secBg);
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer a:hover {
+  color: var(--secColor);
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  padding: 0px;
+}
+.footer ul .svg {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,131 @@
+.About {
+  color: var(--white);
+}
+.About .container .row {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .About .container .row .aboutText {
+    text-align: center;
+  }
+}
+.About .container .row .aboutText .row .textX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.About .container .row .aboutText .row .textX .p {
+  line-height: 1.7rem;
+  width: 101%;
+}
+.About .container .row .aboutText .row .textX .h2 span {
+  color: var(--secColor);
+}
+.About .container .row .aboutText .row .textX2 .Allinfo {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+.About .container .row .aboutText .row .textX2 .Allinfo .info {
+  display: flex;
+  align-items: center;
+}
+.About .container .row .aboutText .row .textX2 .Allinfo .info .h6,
+.About .container .row .aboutText .row .textX2 .Allinfo .info .p,
+.About .container .row .aboutText .row .textX2 .Allinfo .info .a {
+  margin: 5px;
+  text-align: start;
+  z-index: 111;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .About .container .row .aboutText .row .textX2 .Allinfo .info .h6,
+  .About .container .row .aboutText .row .textX2 .Allinfo .info .p,
+  .About .container .row .aboutText .row .textX2 .Allinfo .info .a {
+    font-size: calc(0.6rem + 1vw);
+  }
+}
+.About .container .row .aboutText .row .textX2 .Allinfo .info .a {
+  color: var(--white) !important;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.About .container .row .aboutText .row .textX2 .Allinfo .info .a:hover {
+  color: var(--secBg) !important;
+}
+.About .container .row .aboutText .row .textX2 .Allinfo .hr {
+  width: 100%;
+  background: var(--gray);
+  height: 1px;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 20px 0;
+  display: flex;
+  background: transparent;
+  min-width: 12rem;
+  position: relative;
+  border: none;
+  padding: 0;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore .circle {
+  transition: 0.5s;
+  display: block;
+  width: 50px;
+  height: 45px;
+  background: var(--secBg);
+  border-radius: 5px;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore .circle .icon {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #000;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore .circle .arrow {
+  transition: 0.5s;
+  left: 0.625rem;
+  width: 20px;
+  height: 2px;
+  background: none;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore .circle .arrow::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore .buttonText {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+  padding: 10px;
+  margin: 1.5px 0 0 10px;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore:hover .circle {
+  width: 100%;
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore:hover .circle .icon.arrow {
+  background: #000000;
+  transform: translate(10px, 0);
+}
+.About .container .row .aboutText .row .textX2 .btnX .learnMore:hover .buttonText {
+  color: #000000;
+}/*# sourceMappingURL=About.module.css.map */

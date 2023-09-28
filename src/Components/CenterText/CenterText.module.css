@@ -1,0 +1,44 @@
+.centerText {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+.centerText .backH2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: calc(1.5rem + 6vw);
+  font-weight: 700;
+  color: rgba(205, 205, 205, 0.3411764706);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  letter-spacing: 10px;
+  word-spacing: -25px;
+}
+.centerText p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--secBg);
+  transform: translate(-50%, -50%);
+  font-size: calc(1.5rem + 1vw);
+  font-weight: 600;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.centerText p:hover::after {
+  width: 120px;
+}
+.centerText p::after {
+  content: "";
+  position: absolute;
+  transition: 0.5s;
+  bottom: -5px;
+  width: 80px;
+  height: 3px;
+  background-color: var(--secBg);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=CenterText.module.css.map */

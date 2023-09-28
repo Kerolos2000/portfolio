@@ -1,0 +1,37 @@
+.main {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fedcc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .text {
+    color: var(--mainColor);
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .x2,
+  .x3 {
+    mix-blend-mode: luminosity;
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: -150px;
+    top: 100px;
+  }
+  .x3 {
+    transform: scale(0.5) !important;
+  }
+}

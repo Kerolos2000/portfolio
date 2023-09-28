@@ -1,0 +1,57 @@
+.nav {
+  transition: 1s;
+  z-index: 2;
+  background: var(--mainColor);
+  box-shadow: 0 20px 20px -15px rgba(255, 109, 64, 0.1294117647);
+}
+.nav .navbarBrand,
+.nav .item {
+  color: var(--secBg);
+  padding: 10px 0;
+}
+.nav .item {
+  margin-inline: 10px;
+  position: relative;
+}
+.nav .item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 3px;
+  background-color: var(--secColor);
+  transition: 0.5s;
+}
+.nav .item:hover {
+  color: var(--secColor);
+}
+.nav .item:hover::after {
+  width: 25px;
+}
+.nav .navbarToggler {
+  position: relative;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.nav .navbarToggler span {
+  background-color: var(--secBg);
+  mix-blend-mode: difference;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.nav .navbarToggler span:nth-child(1) {
+  top: 0px;
+  transform: rotate(45deg);
+}
+.nav .navbarToggler span:nth-child(2) {
+  opacity: 0;
+}
+.nav .navbarToggler span:nth-child(3) {
+  top: 0px;
+  transform: rotate(-45deg);
+}/*# sourceMappingURL=Navbar.module.css.map */

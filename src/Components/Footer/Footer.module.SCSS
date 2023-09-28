@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--mainColor);
+  color: var(--secBg);
+  .container {
+    .row {
+      justify-content: space-around;
+      .left {
+        p {
+          span {
+            color: var(--secColor);
+          }
+        }
+      }
+    }
+  }
+  .Gmail {
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid var(--secBg);
+  }
+  
+  a {
+    color: var(--secBg);
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+      color: var(--secColor);
+      text-decoration: none;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    .svg {
+      font-size: 1.5rem;
+    }
+  }
+}
+

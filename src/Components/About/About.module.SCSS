@@ -1,0 +1,138 @@
+.About {
+  color: var(--white);
+  .container {
+    .row {
+      margin: 0;
+      .aboutText {
+        @media (max-width: 767px) {
+          text-align: center;
+        }
+        .row {
+          .textX {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .textX {
+            .p {
+              line-height: 1.7rem;
+              width: 101%;
+            }
+            .h2 {
+              span {
+                color: var(--secColor);
+              }
+            }
+          }
+          .textX2 {
+            .Allinfo {
+              flex-direction: column;
+              align-items: flex-start;
+              margin: 15px 0;
+              .info {
+                display: flex;
+                align-items: center;
+                .h6,
+                .p,
+                .a {
+                  margin: 5px;
+                  text-align: start;
+                  z-index: 111;
+                  position: relative;
+                  @media (max-width: 767px) {
+                    font-size: calc(0.6rem + 1vw);
+                  }
+                }
+                .a {
+                  color: var(--white) !important;
+                  text-decoration: none;
+                  cursor: pointer;
+                  transition: 0.5s;
+                  &:hover {
+                    color: var(--secBg) !important;
+                  }
+                }
+              }
+              .hr {
+                width: 100%;
+                background: var(--gray);
+                height: 1px;
+              }
+            }
+            .btnX {
+              // download cv btn
+              .learnMore {
+                user-select: none;
+                margin: 20px 0;
+                display: flex;
+                background: transparent;
+                min-width: 12rem;
+                position: relative;
+                border: none;
+                padding: 0;
+                .circle {
+                  transition: 0.5s;
+                  display: block;
+                  width: 50px;
+                  height: 45px;
+                  background: var(--secBg);
+                  border-radius: 5px;
+                  .icon {
+                    transition: 0.5s;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #000;
+                  }
+                  .arrow {
+                    transition: 0.5s;
+                    left: 0.625rem;
+                    width: 20px;
+                    height: 2px;
+                    background: none;
+                    &::before {
+                      content: "";
+                      position: absolute;
+                      top: -4px;
+                      right: 0px;
+                      width: 10px;
+                      height: 10px;
+                      border-top: 2px solid #000;
+                      border-right: 2px solid #000;
+                      transform: rotate(45deg);
+                    }
+                  }
+                }
+                .buttonText {
+                  transition: 0.5s;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 30px;
+                  padding: 10px;
+                  margin: 1.5px 0 0 10px;
+                  color: var(--white);
+                  text-align: center;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                }
+                &:hover .circle {
+                  width: 100%;
+                }
+                &:hover .circle .icon.arrow {
+                  background: #000000;
+                  transform: translate(10px, 0);
+                }
+                &:hover .buttonText {
+                  color: #000000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

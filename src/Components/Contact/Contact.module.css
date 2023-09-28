@@ -1,0 +1,44 @@
+.Contact {
+  background-color: var(--secBg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Contact .container .form .row .formOutline {
+  margin: 10px 0;
+  position: relative;
+}
+.Contact .container .form .row .formOutline .invalidTooltip {
+  position: relative;
+  top: 0;
+  margin: 10px 0;
+  font-size: 18px;
+  background-color: transparent;
+  color: var(--mainColor);
+  padding: 0;
+}
+.Contact .container .form .row .formOutline input, .Contact .container .form .row .formOutline textarea {
+  box-shadow: none;
+  outline: none;
+  border: 2px solid var(--mainColor);
+  color: var(--mainColor);
+  background: transparent;
+}
+.Contact .container .form .row .formOutline input:focus, .Contact .container .form .row .formOutline textarea:focus {
+  border: 2px solid var(--secColor);
+}
+.Contact .container .form .row .formOutline .textarea {
+  height: 150px;
+  vertical-align: bottom;
+}
+.Contact .container .form .row .formOutline #submit {
+  cursor: not-allowed;
+}
+
+.load button {
+  border: 2px solid #410d01 !important;
+  color: #410d01;
+}
+.load button:hover {
+  border: 2px solid #410d01;
+}/*# sourceMappingURL=Contact.module.css.map */

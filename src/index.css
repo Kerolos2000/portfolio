@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+:root {
+  --white: #fff;
+  --black: #000;
+  --black90: #0000008a;
+  --gray: #999;
+  --secColor: #ff6d40;
+  --secColor90: rgba(255, 109, 64, 0.8);
+  --mainColor: #100502;
+  --mainColor90: #2d112be6;
+  --secBg: #fedcc8;
+}
+
+section {
+  overflow: hidden !important;
+}
+
+body {
+  font-family: "Permanent Marker", cursive;
+  background-color: var(--mainColor);
+  color: var(--black) !important;
+  overflow-x: hidden;
+}
+
+* {
+  cursor: url("./img/5993123.png"), auto !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secColor90);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secColor);
+}
+
+::-moz-selection {
+  background-color: var(--secBg);
+  color: var(--mainColor);
+}
+
+::selection {
+  background-color: var(--secBg);
+  color: var(--mainColor);
+}
+
+section {
+  padding: 1rem 0;
+}
+
+.active {
+  color: var(--secColor) !important;
+}
+
+.collapsed span:nth-child(1) {
+  top: 0 !important;
+  transform: rotate(0deg) !important;
+}
+
+.collapsed span:nth-child(2) {
+  top: 6px !important;
+  transform: rotate(0deg) !important;
+  opacity: 1 !important;
+}
+
+.collapsed span:nth-child(3) {
+  top: 12px !important;
+  transform: rotate(0deg) !important;
+}
+
+.About {
+  color: var(--white);
+}
+.About .container .row {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .About .container .row .about-text {
+    text-align: center;
+  }
+}
+.About .container .row .about-text .row .textX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.About .container .row .about-text .row .textX p {
+  line-height: 1.7rem;
+  width: 100%;
+}
+.About .container .row .about-text .row .textX h2 span {
+  color: var(--secColor);
+}
+.About .container .row .about-text .row .textX2 .AllinfoBTN {
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+@media (max-width: 991px) {
+  .About .container .row .about-text .row .textX2 .AllinfoBTN {
+    justify-content: center;
+  }
+}
+.About .container .row .about-text .row .textX2 .Allinfo {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+.About .container .row .about-text .row .textX2 .Allinfo .info {
+  display: flex;
+  align-items: center;
+}
+.About .container .row .about-text .row .textX2 .Allinfo .info h6,
+.About .container .row .about-text .row .textX2 .Allinfo .info p,
+.About .container .row .about-text .row .textX2 .Allinfo .info a {
+  margin: 5px;
+  text-align: start;
+}
+@media (max-width: 767px) {
+  .About .container .row .about-text .row .textX2 .Allinfo .info h6,
+  .About .container .row .about-text .row .textX2 .Allinfo .info p,
+  .About .container .row .about-text .row .textX2 .Allinfo .info a {
+    font-size: calc(0.6rem + 1vw);
+  }
+}
+.About .container .row .about-text .row .textX2 .Allinfo .info a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+.About .container .row .about-text .row .textX2 .Allinfo .hr {
+  width: 100%;
+  background: var(--gray);
+  height: 1px;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 20px 0;
+  display: flex;
+  background: transparent;
+  min-width: 12rem;
+  position: relative;
+  border: none;
+  padding: 0;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more .circle {
+  transition: 0.5s;
+  display: block;
+  width: 50px;
+  height: 45px;
+  background: var(--secBg);
+  border-radius: 5px;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more .circle .icon {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #000;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more .circle .arrow {
+  transition: 0.5s;
+  left: 0.625rem;
+  width: 20px;
+  height: 2px;
+  background: none;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more .circle .arrow::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more .button-text {
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 30px;
+  padding: 10px;
+  margin: 1.5px 0 0 10px;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more:hover .circle {
+  width: 100%;
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more:hover .circle .icon.arrow {
+  background: #000000;
+  transform: translate(10px, 0);
+}
+.About .container .row .about-text .row .textX2 .btnX .learn-more:hover .button-text {
+  color: #000000;
+}
+.About .container .row .allCards {
+  margin-top: 25px;
+}
+.About .container .row .allCards .card {
+  text-align: center;
+  border: 2px solid;
+  border-color: transparent #eee transparent transparent;
+}
+.About .container .row .allCards .card p {
+  font-size: calc(10px + 1vw);
+}
+@media (max-width: 319px) {
+  .About .container .row .allCards .card p {
+    font-size: calc(0.5rem + 1vw);
+  }
+}
+.About .container .row .allCards .card h2,
+.About .container .row .allCards .card h3 {
+  color: #6c757d;
+  font-size: calc(2rem + 1vw);
+  font-weight: 500px;
+}
+@media (max-width: 1200px) {
+  .About .container .row .allCards :nth-child(1) {
+    border-color: transparent #eee #eee transparent;
+  }
+  .About .container .row .allCards :nth-child(2) {
+    border-color: transparent transparent #eee transparent;
+  }
+}
+.About .container .row .allCards .noborder {
+  border: none;
+}
+
+.parallax-card-shine {
+  z-index: unset !important;
+}
+
+#card3d > div {
+  display: block !important;
+}
+
+.center-text-dark h2 {
+  color: rgba(52, 10, 0, 0.2) !important;
+}
+.center-text-dark p {
+  color: #340a00;
+}
+.center-text-dark p::after {
+  background-color: #340a00;
+}
+
+.parallax-card-layers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert {
+  padding: 0.5rem 0;
+  color: var(--secColor);
+}
+
+.atropos.my-atropos {
+  height: 100%;
+}
+
+span.atropos-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

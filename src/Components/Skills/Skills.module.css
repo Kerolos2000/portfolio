@@ -1,0 +1,16 @@
+.allCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.allCard .img {
+  width: 50%;
+  aspect-ratio: 3/2;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+.allCard .p {
+  color: var(--secBg);
+}/*# sourceMappingURL=Skills.module.css.map */

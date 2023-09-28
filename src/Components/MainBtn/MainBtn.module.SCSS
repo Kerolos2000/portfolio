@@ -1,0 +1,25 @@
+.mouseCursor {
+  position: relative;
+  background: transparent;
+  padding: 5px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  background-color: var(--secBg) !important;
+  &:hover::before {
+    --size: 100px;
+  }
+  &:before {
+    content: "";
+    --size: 0;
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #410d0170, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+}

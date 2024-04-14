@@ -7,7 +7,7 @@ export default function About() {
   let Height = useRef("");
   useEffect(() => {
     HeightContext.setHeight(Height.current.offsetTop);
-  }, []);
+  }, [HeightContext]);
 
   return (
     <>
@@ -33,6 +33,10 @@ export default function About() {
                     with a very good grade with honors
                   </p>
                   <p className={style.p}>2018 - 2022</p>
+                  <p className={style.p}>
+                    BM Enterprises Management, Frontend Developer
+                  </p>
+                  <p className={style.p}>2023 - Present</p>
                 </div>
                 <div
                   className={`col-md-4 col-sm-12 ${style.textX2}`}
@@ -60,7 +64,7 @@ export default function About() {
                   <div className={`${style.Allinfo} dFlex`}>
                     <div className={style.info}>
                       <h6 className={style.h6}>Age:</h6>
-                      <p className={style.p}>23</p>
+                      <p className={style.p}>{new Date().getFullYear() - new Date('2000-10-01').getFullYear()}</p>
                     </div>
                     <div className={style.hr}></div>
                   </div>
@@ -78,7 +82,8 @@ export default function About() {
                       </span>
                       <a
                         className={style.buttonText}
-                        href={require("../../img/Kerolos Resume.pdf")}
+                        target={'_blank'}
+                        href={'https://flowcv.com/resume/652bhdl1vr'} rel="noreferrer"
                       >
                         Download CV
                       </a>

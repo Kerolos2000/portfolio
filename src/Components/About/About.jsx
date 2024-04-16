@@ -85,7 +85,7 @@ export default function About() {
                         target={'_blank'}
                         href={'https://flowcv.com/resume/652bhdl1vr'} rel="noreferrer"
                       >
-                        Download CV.
+                        Download CV
                       </a>
                     </button>
                   </div>
